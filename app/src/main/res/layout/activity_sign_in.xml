@@ -45,6 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_text_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email ID"
@@ -67,6 +68,7 @@
         app:passwordToggleEnabled="true">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_text_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -77,7 +79,7 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.button.MaterialButton
-        android:id="@+id/materialButton"
+        android:id="@+id/button_sign_in"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -98,8 +100,7 @@
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton">
+        app:layout_constraintTop_toBottomOf="@+id/button_sign_in">
 
         <TextView
             android:layout_width="wrap_content"
@@ -107,6 +108,7 @@
             android:text="New user?" />
 
         <TextView
+            android:id="@+id/text_view_sign_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="8dp"

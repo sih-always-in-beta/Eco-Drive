@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "190686016185",
+    "firebase_url": "https://always-in-beta.firebaseio.com",
+    "project_id": "always-in-beta",
+    "storage_bucket": "always-in-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190686016185:android:150a74734923876b",
+        "android_client_info": {
+          "package_name": "com.always_in_beta.ecodrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190686016185-iv0v3urtrugg85021htrg522kr01qsoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.always_in_beta.ecodrive",
+            "certificate_hash": "613809f1ac53f78185d55234cd8033ccb627d78e"
+          }
+        },
+        {
+          "client_id": "190686016185-r0ni5d8b621oa4td591osho5prrjot8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfoXcIWkFPOMXrptPWfrHxlov1uCKcioI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190686016185-r0ni5d8b621oa4td591osho5prrjot8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

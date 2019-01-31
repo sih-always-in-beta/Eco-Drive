@@ -118,7 +118,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New user?" />
+            android:text="New user?"
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/text_view_sign_up"
@@ -127,6 +128,7 @@
             android:paddingLeft="8dp"
             android:text="Sign Up"
             android:textColor="@color/colorAccent"
+            android:textSize="16dp"
             android:textStyle="bold" />
 
     </LinearLayout>

@@ -1,14 +1,11 @@
-package com.always_in_beta.ecodrive;
+package com.always_in_beta.ecodrive.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
+import com.always_in_beta.ecodrive.R;
 import com.google.firebase.auth.FirebaseAuth;
-
-import java.util.Objects;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -26,6 +23,5 @@ public class StartActivity extends AppCompatActivity {
             startActivity(new Intent(StartActivity.this, SignUpActivity.class));
             finish();
         }
-
     }
 }

@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "190686016185",
-    "firebase_url": "https://always-in-beta.firebaseio.com",
-    "project_id": "always-in-beta",
-    "storage_bucket": "always-in-beta.appspot.com"
+    "project_number": "698219235338",
+    "firebase_url": "https://maps-tutorial-1547984780480.firebaseio.com",
+    "project_id": "maps-tutorial-1547984780480",
+    "storage_bucket": "maps-tutorial-1547984780480.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:190686016185:android:150a74734923876b",
+        "mobilesdk_app_id": "1:698219235338:android:150a74734923876b",
         "android_client_info": {
           "package_name": "com.always_in_beta.ecodrive"
         }
       },
       "oauth_client": [
         {
-          "client_id": "190686016185-iv0v3urtrugg85021htrg522kr01qsoq.apps.googleusercontent.com",
+          "client_id": "698219235338-d555d4fd9o74qenqvqlp2mg7o2ah5g7j.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.always_in_beta.ecodrive",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "190686016185-r0ni5d8b621oa4td591osho5prrjot8e.apps.googleusercontent.com",
+          "client_id": "698219235338-fds7cffs49q1jjkt595i8m5mrga6bfn3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCfoXcIWkFPOMXrptPWfrHxlov1uCKcioI"
+          "current_key": "AIzaSyCN2kGV787-gXQUvYZpiVYxZFeBHQnVDFw"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "190686016185-r0ni5d8b621oa4td591osho5prrjot8e.apps.googleusercontent.com",
+              "client_id": "698219235338-fds7cffs49q1jjkt595i8m5mrga6bfn3.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

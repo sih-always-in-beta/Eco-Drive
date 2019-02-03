@@ -172,7 +172,7 @@ public class SignUpActivity extends AppCompatActivity {
                             });
 
                             Toast.makeText(SignUpActivity.this, "Welcome!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(SignUpActivity.this, MainActivity.class));
+                            startActivity(new Intent(SignUpActivity.this, MapsActivity.class));
                             finish();
                         } else {
                             Toast.makeText(SignUpActivity.this, Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();

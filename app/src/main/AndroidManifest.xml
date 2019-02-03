@@ -36,6 +36,10 @@
         <activity android:name=".activity.SignInActivity" />
         <activity android:name=".activity.MainActivity" />
 
+        <service
+            android:name=".service.UserTrackService"
+            android:exported="false" />
+
     </application>
 
 </manifest>

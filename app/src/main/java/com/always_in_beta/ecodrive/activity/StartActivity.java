@@ -1,11 +1,15 @@
 package com.always_in_beta.ecodrive.activity;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 
 import com.always_in_beta.ecodrive.R;
-import com.always_in_beta.ecodrive.service.UserTrackService;
+import com.always_in_beta.ecodrive.receiver.AlarmReceiver;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class StartActivity extends AppCompatActivity {
@@ -25,7 +29,18 @@ public class StartActivity extends AppCompatActivity {
 //            finish();
 //        }
 
-        Intent intent = new Intent(StartActivity.this, UserTrackService.class);
-        startService(intent);
+        Intent intent = new Intent(this, AlarmReceiver.class);
+
+        // TODO: 4/2/19  add request code to constants
+
+        final PendingIntent notifyPendingIntent = PendingIntent.getBroadcast(this, 6969, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        final AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+
+        long repeat = 60000;
+        long triggerTime = SystemClock.elapsedRealtime() + repeat;
+
+        if (alarmManager != null) {
+            alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP, triggerTime, repeat, notifyPendingIntent);
+        }
     }
 }

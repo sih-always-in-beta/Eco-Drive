@@ -37,7 +37,7 @@ public class StartActivity extends AppCompatActivity {
         final AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
         long repeat = 60000;
-        long triggerTime = SystemClock.elapsedRealtime() + repeat;
+        long triggerTime = SystemClock.elapsedRealtime() + 5000;
 
         if (alarmManager != null) {
             alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP, triggerTime, repeat, notifyPendingIntent);
